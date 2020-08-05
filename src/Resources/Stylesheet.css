@@ -1,0 +1,70 @@
+:root{
+    padding: 0;
+    margin:0
+}
+html,body{
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+/*================================
+--------Header
+=================================*/
+
+.header_wrapper{
+    display: flex;
+    font-size: 32px;
+}
+.header_wrapper .header_title{
+    flex-grow: 1;
+}
+.header_title .header_text{
+    font-size: 1em;
+    color: black
+}
+/*================================
+--------Footer
+=================================*/
+.footer_wrapper{
+    height: 200px;
+    position: relative;
+    bottom: 0;
+    background-color: rgb(36, 33, 33);
+    width: 100%;
+    color: white;
+}
+
+/*================================
+--------Featured
+=================================*/
+.featured_wrapper{
+    position: relative;
+    top: 0;
+    height: 50vh;
+    width: 100%;
+    background-image: url(./images/oge_bck.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.featured_text{
+    position: relative;
+    top:50%;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: white;
+    
+}
+/*================================
+--------Store
+=================================*/
+.store_wrapper{
+    height: 150px;
+    overflow: scroll;
+    text-transform: uppercase;
+}
