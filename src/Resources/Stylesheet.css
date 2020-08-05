@@ -44,27 +44,43 @@ li{
 --------Featured
 =================================*/
 .featured_wrapper{
-    position: relative;
-    top: 0;
+    height: 50vh;
+    margin-bottom: 20px;
+}
+.featured_wrapper:after{
+    content: "";
     height: 50vh;
     width: 100%;
-    background-image: url(./images/oge_bck.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.2);
 }
 .featured_text{
     position: relative;
-    top:50%;
+    top:-50%;
     text-transform: uppercase;
     font-size: 32px;
-    color: white;
-    
+    color:black;
+  
+}
+.carousel_image{
+    position: relative;
+    top:0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+}
+img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    transform: translate(0px,-40%);
 }
 /*================================
 --------Store
 =================================*/
 .store_wrapper{
-    height: 150px;
+    height: 500px;
     overflow: scroll;
     text-transform: uppercase;
 }

@@ -7,11 +7,14 @@ import {
   Badge,
 } from "@material-ui/core";
 import { ShoppingCart } from "@material-ui/icons";
+
+
+
 const Header = () => {
   return (
     <div className="header_wrapper">
       <AppBar
-        position="static"
+        position="fixed"
         style={{
           background: "rgba(0,0,0,0.1)",
           boxShadow: "none",
@@ -26,7 +29,9 @@ const Header = () => {
               Oge fashion house
             </Typography>
           </div>
-          <IconButton color="primary">
+          <IconButton style={{
+              color:"white"
+          }}>
             <Badge badgeContent={2}>
               <ShoppingCart />
             </Badge>
