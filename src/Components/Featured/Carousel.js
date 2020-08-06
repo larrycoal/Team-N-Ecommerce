@@ -12,10 +12,11 @@ import suits from "../../Resources/images/suits.jpg";
 
 const Carousel = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
-    speed: 400,
+    speed: 500,
     autoplay: true,
+    fade:true
   };
   return (
     <Slider {...settings}>

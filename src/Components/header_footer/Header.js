@@ -6,7 +6,7 @@ import {
   IconButton,
   Badge,
 } from "@material-ui/core";
-import { ShoppingCart } from "@material-ui/icons";
+import { ShoppingCart,House } from "@material-ui/icons";
 
 
 
@@ -26,11 +26,29 @@ const Header = () => {
               variant="h6"
               className="header_text"
             >
-              Oge fashion house
+                <span >
+                <House fontSize="large"/>
+                </span>
+                <span
+                style={{
+                    padding:"4px",
+                    fontFamily:"Satisfy",
+                    fontSize:"25px"
+                }}>
+                    of
+                </span>
+                <span
+                style={{
+                    padding:"4px",
+                    fontFamily:"Righteous"
+                }}
+                >
+                HOVA
+                </span>
             </Typography>
           </div>
           <IconButton style={{
-              color:"white"
+              color:"white",
           }}>
             <Badge badgeContent={2}>
               <ShoppingCart />

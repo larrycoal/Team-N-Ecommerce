@@ -26,7 +26,7 @@ li{
 }
 .header_title .header_text{
     font-size: 1em;
-    color: black
+    color: white
 }
 /*================================
 --------Footer
@@ -47,25 +47,33 @@ li{
     height: 50vh;
     margin-bottom: 20px;
 }
-.featured_wrapper:after{
-    content: "";
-    height: 50vh;
-    width: 100%;
-    background-color: rgba(0,0,0,0.2);
-}
+
 .featured_text{
     position: relative;
-    top:-50%;
-    text-transform: uppercase;
-    font-size: 32px;
+    top:-60%;
+    letter-spacing: 2px;
     color:black;
-  
+    width: 700px;
+    margin: 20px;
+    color: whitesmoke;
+}
+.featured_text .top{
+    font-family: "Righteous";
+    font-size: 56px;
+    background-color: black;
+    width: fit-content;
+    padding: 10px;
+
+}
+.featured_text .bottom{
+    font-family: "Roboto";
+    font-size: 27px;
+    font-style: italic;
+    width: fit-content;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 1px #000000;
 }
 .carousel_image{
-    position: relative;
-    top:0;
-    background-size: cover;
-    background-repeat: no-repeat;
     height: 50vh;
     width: 100%;
 }
