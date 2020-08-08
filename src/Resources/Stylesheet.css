@@ -13,6 +13,9 @@ html,body{
 li{
     list-style: none;
 }
+h4,p{
+    margin: 0;
+}
 /*================================
 --------Header
 =================================*/
@@ -77,7 +80,7 @@ li{
     height: 50vh;
     width: 100%;
 }
-img{
+.carousel_image img{
     position: relative;
     width: 100%;
     height: auto;
@@ -88,7 +91,38 @@ img{
 --------Store
 =================================*/
 .store_wrapper{
-    height: 500px;
-    overflow: scroll;
-    text-transform: uppercase;
+    height: 1500px;
+    margin: 20px;
+}
+.suit_wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.suit_wrapper .header{
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    background-image: url(./images/suitModel2.jpg);
+    background-size: cover;
+    margin: 10px;
+    display: grid;
+    align-items: center;
+}
+.suit_wrapper .cards{
+    height:400px;
+    width:100%;
+    margin: 10px;
+    overflow:hidden;
+}
+.image {
+    height:350px;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+}
+.image img{
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    margin: 0 auto;
 }
