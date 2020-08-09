@@ -6,12 +6,26 @@ html,body{
     min-height: 100vh;
     padding: 0;
     margin: 0;
+    background: #EEF2F7;
 }
 .container{
     margin: 0 auto;
 }
 li{
     list-style: none;
+    margin: 20px 0px;
+}
+a{
+    text-decoration: none;
+    color: #ffebee;
+    font-size: 15px;
+}
+input{
+    color: #ffebee;
+    border: 5px solid #ffebee;
+}
+#starndard-basic{
+    
 }
 h4,p{
     margin: 0;
@@ -41,8 +55,12 @@ h4,p{
     background-color: rgb(36, 33, 33);
     width: 100%;
     color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
 }
-
+form{
+    display: flex;
+}
 /*================================
 --------Featured
 =================================*/
@@ -81,11 +99,11 @@ h4,p{
     width: 100%;
 }
 .carousel_image img{
-    position: relative;
     width: 100%;
     height: auto;
     object-fit: contain;
     transform: translate(0px,-40%);
+    
 }
 /*================================
 --------Store
@@ -93,36 +111,54 @@ h4,p{
 .store_wrapper{
     height: 1500px;
     margin: 20px;
+    overflow: scroll;
 }
-.suit_wrapper{
+.section_wrapper{
     display: flex;
     flex-direction: row;
+    margin: 10px;
 }
-.suit_wrapper .header{
+.section_wrapper .header{
     height: 400px;
     width: 300px;
     text-align: center;
     background-image: url(./images/suitModel2.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     margin: 10px;
     display: grid;
     align-items: center;
 }
-.suit_wrapper .cards{
+.section_wrapper .cards{
     height:400px;
     width:100%;
     margin: 10px;
     overflow:hidden;
 }
 .image {
-    height:350px;
+    height:300px;
     width:250px;
     display: flex;
     flex-direction: column;
+    font-size: 32px;
+    margin-bottom: 10px;
 }
 .image img{
-    height: 250px;
-    width: 200px;
+    height: 6em;
+    width: 5.5em;
     object-fit: cover;
     margin: 0 auto;
+    border-radius: 5px;
+
+}
+.slick-active{
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+   border-radius: 5px;
 }

@@ -1,51 +1,180 @@
-import suit1 from '../Resources/images/suit1.jpg'
-import suit2 from '../Resources/images/suit2.jpg'
-import suit3 from '../Resources/images/suit3.jpg'
-import suit4 from '../Resources/images/suit4.jpg'
-import suit5 from '../Resources/images/suit5.jpg'
-import suit6 from '../Resources/images/suit6.jpg'
-import suit7 from '../Resources/images/suit7.jpg'
 export const suitData =[
     {
-        id:"1",
-        image:`${suit1}`,
+        id:0,
+        image:"https://images.unsplash.com/photo-1541657969155-2217bea1485d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         name:"AlexanderMcQueen",
-        price:"800"
+        price:"8000",
+        ratings:"4",
     },
     {
-        id:"2",
-        image:`${suit2}`,
+        id:1,
+        image:"https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         name:"Burberry",
-        price:"650"
+        price:"16550",
+        ratings:"3",
     },
     {
-        id:"3",
-        image:`${suit3}`,
+        id:2,
+        image:"https://images.unsplash.com/photo-1521341057461-6eb5f40b07ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         name:"Dolce$Gabbana",
-        price:"1800"
+        price:"1000",
+        ratings:"5",
+        
     },
     {
-        id:"4",
-        image:`${suit4}`,
+        id:4,
+        image:"https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         name:"Brioni",
-        price:"900"
+        price:"1900",
+        ratings:"4",
     },
     {
-        id:"5",
-        image:`${suit5}`,
+        id:5,
+        image:"https://images.unsplash.com/photo-1593030103066-0093718efeb9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         name:"Saint Laurent",
-        price:"2800"
+        price:"12800",
+        ratings:"5",
     },
     {
-        id:"6",
-        image:`${suit6}`,
+        id:6,
+        image:"https://images.unsplash.com/photo-1582274528667-1e8a10ded835?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         name:"Givenchy",
-        price:"1100"
+        price:"8500",
+        ratings:"4",
     },
     {
-        id:"7",
-        image:`${suit7}`,
+        id:7,
+        image:"https://images.unsplash.com/photo-1590710187581-0ca1d0f74854?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         name:"Prada",
-        price:"900"
+        price:"9000",
+        ratings:"4",
+    },
+]
+export const watchData =[
+    {
+        id:0,
+        image:"https://images.unsplash.com/photo-1511517016446-faa23cd55bf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Rolex",
+        price:"180,000",
+    },
+    {
+        id:1,
+        image:"https://images.unsplash.com/photo-1595389295128-016699e74935?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Philip patek",
+        price:"180,000",
+    },
+    {
+        id:2,
+        image:"https://images.unsplash.com/photo-1594576722512-582bcd46fba3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Mamba",
+        price:"180,000",
+    },
+    {
+        id:3,
+        image:"https://images.unsplash.com/photo-1583315684796-d55135ab0785?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Richard Millie",
+        price:"180,000",
+    },
+    {
+        id:4,
+        image:"https://images.unsplash.com/photo-1587466412525-87497b34fc88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Casio",
+        price:"50,000",
+    },
+    {
+        id:5,
+        image:"https://images.unsplash.com/photo-1583312708610-fe16a34b0826?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Kors",
+        price:"80,000",
+    },
+]
+
+export const dressData = [
+    {
+        id:0,
+        image:"https://images.unsplash.com/photo-1588251886441-746739b3a6e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Hova's",
+        price:"2,500",
+        ratings:5
+    },
+    {
+        id:1,
+        image:"https://images.unsplash.com/photo-1570382667048-23b581258f6a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Hova's",
+        price:"1,500",
+        ratings:5
+    },
+    {
+        id:2,
+        image:"https://images.unsplash.com/photo-1571114412235-ccc0e7d683f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Hova's",
+        price:"1,800",
+        ratings:5
+    },
+    {
+        id:3,
+        image:"https://images.unsplash.com/photo-1596506748453-620542a799ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Hova's",
+        price:"1,800",
+        ratings:5
+    },
+    {
+        id:4,
+        image:"https://images.unsplash.com/photo-1596700206056-e0f4d3d5338c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Hova's",
+        price:"2,800",
+        ratings:5
+    },
+    {
+        id:5,
+        image:"https://images.unsplash.com/photo-1548735428-e50dae54e793?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Hova's",
+        price:"2,300",
+        ratings:5
+    },
+]
+
+export const jeansData = [
+    {
+        id:0,
+        image:"https://images.unsplash.com/photo-1475178626620-a4d074967452?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Hova's",
+        price:"2,300",
+        ratings:5
+    },
+    {
+        id:1,
+        image:"https://images.unsplash.com/photo-1555689502-c4b22d76c56f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Hova's",
+        price:"1,300",
+        ratings:5
+    },
+    {
+        id:2,
+        image:"https://images.unsplash.com/photo-1548781833-d57663da92e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Hova's",
+        price:"800",
+        ratings:5
+    },
+    {
+        id:3,
+        image:"https://images.unsplash.com/photo-1587634656083-b48eacbda94d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Hova's",
+        price:"1800",
+        ratings:5
+    },
+    {
+        id:4,
+        image:"https://images.unsplash.com/photo-1596305589475-7f4c4020685b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Hova's",
+        price:"1800",
+        ratings:5
+    },
+    {
+        id:5,
+        image:"https://images.unsplash.com/photo-1558339077-5fd7a1f0d742?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        name:"Hova's",
+        price:"1800",
+        ratings:5
     },
 ]
