@@ -7,7 +7,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 
-
 const Carousel = () => {
   const settings = {
     dots: false,

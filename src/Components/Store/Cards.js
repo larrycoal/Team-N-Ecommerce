@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import React, { useState,useContext } from "react";
 import Slider from "react-slick";
 import Rating from "@material-ui/lab/Rating";
 import { makeStyles } from "@material-ui/core/styles";
 import { IconButton } from "@material-ui/core";
 import { AddShoppingCart } from "@material-ui/icons";
+import {Context} from '../../Store/useContext'
+
 
 const Cards = (props) => {
   let [value, setValue] = useState({
@@ -15,6 +17,12 @@ const Cards = (props) => {
     5:5,
     6:5,
   });
+
+  let {dispatch} =useContext(Context)
+
+  const addToCart =(suit)=>{
+       dispatch({type:"ADD-CART",payload:suit})
+  }
 
   const useStyles = makeStyles((theme) => ({
     root: {
@@ -86,7 +94,7 @@ const Cards = (props) => {
                 }}
               >
                 <div>
-                  <p>${suit.price}</p>
+                  <p>${suit.price}.00</p>
                 </div>
                 <div>{Rate(i)}</div>
                 <div>
@@ -94,7 +102,7 @@ const Cards = (props) => {
                     color="primary"
                     aria-label="add to shopping cart"
                     onClick={() => {
-                      console.log("clicked");
+                      addToCart(suit)
                     }}
                   >
                     <AddShoppingCart />

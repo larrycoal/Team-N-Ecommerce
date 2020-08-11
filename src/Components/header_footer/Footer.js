@@ -49,7 +49,7 @@ const Footer = () => {
            <div>
             <h2>Subscribe to Our News Letter</h2>
             <form >
-            <TextField  id="standard-basic" label="Email" color="secondary" />
+            <TextField  id="standard-basic" label="Email" color="secondary" type="email"/>
             <Button size="medium">
                  Subscribe
             </Button>

@@ -1,18 +1,26 @@
-import React from 'react';
-import Home from './Components/Home'
-import './Resources/Stylesheet.css'
-import Featured from './Components/Featured'
-import Store from './Components/Store'
+import React from "react";
+import Home from "./Components/Home";
+import "./Resources/Stylesheet.css";
+import Featured from "./Components/Featured";
+import Store from "./Components/Store";
+import Drawer from "./Components/Drawer";
+import { Context } from "./Store/useContext";
+import { reducer,initialState} from "./Store/useReducer";
+import { useReducer} from "react";
 
-const App=()=> {
+const App = () => {
+  let [state, dispatch] = useReducer(reducer, initialState);
   return (
-    <div>
-      <Home>
-        <Featured/>
-        <Store/>
-      </Home>
-    </div>
+    <Context.Provider value={{ state, dispatch }}>
+      <div>
+        <Home>
+          <Featured />
+          <Store />
+          <Drawer />
+        </Home>
+      </div>
+    </Context.Provider>
   );
-}
+};
 
 export default App;

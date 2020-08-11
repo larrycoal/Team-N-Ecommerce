@@ -1,4 +1,5 @@
-import React from "react";
+import React,{useContext} from "react";
+import {Context} from '../../Store/useContext'
 import {
   AppBar,
   Toolbar,
@@ -11,6 +12,7 @@ import { ShoppingCart,House } from "@material-ui/icons";
 
 
 const Header = () => {
+  let {state,dispatch} = useContext(Context)
   return (
     <div className="header_wrapper">
       <AppBar
@@ -49,8 +51,10 @@ const Header = () => {
           </div>
           <IconButton style={{
               color:"white",
-          }}>
-            <Badge badgeContent={2}>
+          }}
+          onClick={()=>{dispatch({type:"open-drawer"})}}
+          >
+            <Badge badgeContent={state.cart.length}>
               <ShoppingCart />
             </Badge>
           </IconButton>
