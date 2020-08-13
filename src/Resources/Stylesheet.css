@@ -28,6 +28,8 @@ input{
 h4,p{
     margin: 0;
 }
+
+
 /*================================
 --------Header
 =================================*/
@@ -64,22 +66,22 @@ form{
 --------Featured
 =================================*/
 .featured_wrapper{
-    height: 70vh;
     margin-bottom: 20px;
+    font-size: 50px;
 }
 
 .featured_text{
-    position: relative;
-    top:-60%;
+    position: absolute;
+    top:100px;
     letter-spacing: 2px;
     color:black;
-    width: 700px;
+    width: 10em;
     margin: 20px;
     color: whitesmoke;
 }
 .featured_text .top{
     font-family: "Righteous";
-    font-size: 56px;
+    font-size: 1em;
     background-color: black;
     width: fit-content;
     padding: 10px;
@@ -87,14 +89,14 @@ form{
 }
 .featured_text .bottom{
     font-family: "Roboto";
-    font-size: 27px;
+    font-size: .5em;
     font-style: italic;
     width: fit-content;
     letter-spacing: 4px;
     text-shadow: 1px 1px 1px #000000;
 }
 .carousel_image{
-    height: 70vh;
+    height: 100vh;
     width: 100%;
 }
 .carousel_image img{
@@ -116,31 +118,49 @@ form{
     display: flex;
     flex-direction: row;
     margin: 10px;
+    font-size: 50px;
 }
 .section_wrapper .header{
-    height: 400px;
-    width: 300px;
+    height: 7em;
+    width: 6.5em;
     text-align: center;
     background-image: url(./images/suitModel2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 10px;
+    margin: .2em;
     display: grid;
     align-items: center;
 }
+.section_wrapper .header h3{
+   font-size: .5em;
+}
+.section_wrapper .header:hover{
+   transform: scale(1.1);
+   transition: all 1s;
+}
+.section_wrapper .header:hover h3{
+    border: 1px solid #e0f2f1;
+    border-radius: .1em;
+    color: black;
+    text-transform: uppercase;
+    padding: .1em;
+    background-color: #e0f2f1;
+    cursor: pointer;
+    
+ }
 .section_wrapper .cards{
-    height:400px;
+    height:8em;
     width:100%;
-    margin: 10px;
+    margin: .1em;
     overflow:hidden;
 }
 .image {
-    height:300px;
-    width:250px;
+    height:6em;
+    width:5.5em;
     display: flex;
     flex-direction: column;
-    font-size: 32px;
-    margin-bottom: 10px;
+    font-size: .7em;
+    margin-bottom: .2em;
 }
 .image img{
     height: 6em;
@@ -161,6 +181,10 @@ form{
 ;
    border-radius: 5px;
 }
+.cart span button{
+    position: relative;
+    padding: 0;
+}
 /*================================
 --------Checkout
 =================================*/
@@ -168,7 +192,7 @@ form{
     width:300px;
     height: 100%;
     display: grid;
-    grid-template-rows: 50px 1fr 100px;
+    grid-template-rows: 50px 1fr 150px;
 }
 
 .checkout-bottom{
@@ -185,4 +209,40 @@ width: 100px;
 }
 .checkout-bottom div:nth-child(2){
    margin: 0 15px;
+}
+.checkout-total{
+    display: grid;
+}
+.checkout-total div{
+    padding: 10px 10px;
+    display: flex;
+}
+.checkout-total div span:nth-child(1){
+    flex-grow: 1;
+}
+.checkout-total div:nth-child(4){
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+/*================================
+--------Media Query
+=================================*/
+@media(min-width:320px) and (max-width:480px){
+    .featured_wrapper{
+        font-size: 25px;
+    }
+    .store_wrapper{
+        top: -450px;
+    }
+    .section_wrapper{
+        font-size: 20px;
+    }
+    
+    #merc-price{
+        font-size: 8px;
+    }
 }

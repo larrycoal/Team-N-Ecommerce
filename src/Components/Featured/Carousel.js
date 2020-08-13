@@ -17,8 +17,10 @@ const Carousel = () => {
   };
   return (
     <Slider {...settings}>
-        <div className="carousel_image">
-          <img src="https://images.unsplash.com/photo-1541888627857-37d0cd590eca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="a polo" />
+        <div className="carousel_image" style={{
+          height:"70vh"
+        }}>
+          <img src="https://images.unsplash.com/photo-1465453869711-7e174808ace9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="a polo" />
         </div>
         <div className="carousel_image">
           <img src="https://images.unsplash.com/photo-1560203125-033f79601481?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="a polo" />

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Context } from "../../Store/useContext";
-import { Avatar} from "@material-ui/core";
+import { Avatar } from "@material-ui/core";
 const Checkout = () => {
   let { state } = useContext(Context);
 
@@ -22,6 +22,25 @@ const Checkout = () => {
       return <div>empty</div>;
     }
   };
+  const displayTotal = () => {
+    return (
+      <div className="checkout-total">
+        <div>
+          <span>Total:</span>
+          <span>20,000</span>
+        </div>
+        <div>
+          <span>Tax</span>
+          <span>5%</span>
+        </div>
+        <div>
+          <span>Grand Total:</span>
+          <span>25,000</span>
+        </div>
+        <div>Check Out</div>
+      </div>
+    );
+  };
   return (
     <div className="checkout-wrapper">
       <div
@@ -33,7 +52,7 @@ const Checkout = () => {
         <h2>Trolley</h2>
       </div>
       <div>{displayTrolley()}</div>
-      <div>total</div>
+      <div>{displayTotal()}</div>
     </div>
   );
 };

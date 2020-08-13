@@ -1,13 +1,13 @@
 import React from "react";
-import {Suit,Suit2,Suit3,Suit4} from "./Sections";
+import {Suit,Sundress,Watches,Jeans} from "./Sections";
 
 const Store = () => {
   return (
     <div className="store_wrapper">
       <Suit />
-      <Suit2/>
-      <Suit3/>
-      <Suit4/>
+      <Watches/>
+      <Sundress/>
+      <Jeans/>
     </div>
   );
 };

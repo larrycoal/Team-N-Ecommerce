@@ -12,7 +12,7 @@ export const Suit = () => {
     </div>
   );
 };
-export const Suit2 = () => {
+export const Watches = () => {
   return (
     <div className="section_wrapper">
       <Cards suitData={watchData} />
@@ -24,7 +24,7 @@ export const Suit2 = () => {
     </div>
   );
 };
-export const Suit3 = () => {
+export const Sundress = () => {
   return (
     <div className="section_wrapper">
       <div className="header" style={{
@@ -36,7 +36,7 @@ export const Suit3 = () => {
     </div>
   );
 };
-export const Suit4 = () => {
+export const Jeans = () => {
   return (
     <div className="section_wrapper">
       <Cards suitData={jeansData} />
