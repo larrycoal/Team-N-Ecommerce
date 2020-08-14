@@ -63,6 +63,30 @@ const Cards = (props) => {
     initialSlide: 0,
     responsive: [
       {
+        breakpoint: 1024,
+        settings: {
+          dots: true,
+          infinite: true,
+          speed: 500,
+          lazyLoad: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          initialSlide: 0,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          dots: true,
+          infinite: true,
+          speed: 500,
+          lazyLoad: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 0,
+        },
+      },
+      {
         breakpoint: 480,
         settings: {
           dots: true,
