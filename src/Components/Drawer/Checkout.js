@@ -1,8 +1,34 @@
-import React, { useContext } from "react";
+import React, { useContext,useEffect,useState } from "react";
 import { Context } from "../../Store/useContext";
-import { Avatar } from "@material-ui/core";
+import { Avatar,Button } from "@material-ui/core";
 const Checkout = () => {
   let { state } = useContext(Context);
+  let [Total,setTotal]= useState(0)
+  let [Gtotal,setGtotal]= useState(0)
+  
+
+
+  useEffect(()=>{
+  if(state.cart.length>0){
+    let check = 0
+    let tax = 0
+    let gT = 0
+    state.cart.map((cart)=>{
+      check= check + parseInt(cart.price)
+      tax =0.5*check
+      gT =tax+check
+      setGtotal(gT)
+      setTotal(check)
+     return(
+        {
+          total:`${check}`,
+          grandTotal:`${gT}`
+        } 
+     )
+    })
+  }
+  },[state.cart])
+
 
   const displayTrolley = () => {
     if (state.cart.length > 0) {
@@ -19,7 +45,15 @@ const Checkout = () => {
         </div>
       ));
     } else {
-      return <div>empty</div>;
+      return (
+        <div style={{
+          textAlign:"center"
+        }}>
+          <h2>
+          Your Cart is Empty
+          </h2>
+        </div>
+      );
     }
   };
   const displayTotal = () => {
@@ -27,7 +61,7 @@ const Checkout = () => {
       <div className="checkout-total">
         <div>
           <span>Total:</span>
-          <span>20,000</span>
+          <span>{Total}</span>
         </div>
         <div>
           <span>Tax</span>
@@ -35,9 +69,11 @@ const Checkout = () => {
         </div>
         <div>
           <span>Grand Total:</span>
-          <span>25,000</span>
+    <span>{Gtotal}</span>
         </div>
-        <div>Check Out</div>
+        <Button variant="outlined" color="secondary">
+          Check Out
+        </Button>
       </div>
     );
   };
@@ -51,7 +87,11 @@ const Checkout = () => {
       >
         <h2>Trolley</h2>
       </div>
-      <div>{displayTrolley()}</div>
+      <div
+      style={{
+        overflow:"scroll"
+      }}
+      >{displayTrolley()}</div>
       <div>{displayTotal()}</div>
     </div>
   );
