@@ -15,7 +15,7 @@ const Checkout = () => {
     let gT = 0
     state.cart.map((cart)=>{
       check= check + parseInt(cart.price)
-      tax =0.5*check
+      tax =0.05*check
       gT =tax+check
       setGtotal(gT)
       setTotal(check)
