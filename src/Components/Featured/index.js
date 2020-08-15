@@ -4,7 +4,7 @@ import Carousel from "./Carousel";
 const Featured = () => {
   return (
     <div className="featured_wrapper" style={{
-      height:`${window.innerHeight}px`
+      height:`${window.innerHeight/2}px`
     }}>
       <Carousel />
       <div className="featured_text">

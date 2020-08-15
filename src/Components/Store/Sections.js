@@ -1,7 +1,6 @@
 import React from "react";
 import Cards from "./Cards";
 import { suitData,watchData,dressData,jeansData } from "../../misc/utils";
-
 export const Suit = () => {
   return (
     <div className="section_wrapper">
