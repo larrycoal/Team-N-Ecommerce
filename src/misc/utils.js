@@ -180,6 +180,7 @@ export const jeansData = [
 ]
 export const settings = {
     dots: true,
+    focusOnSelect:true,
     infinite: true,
     speed: 500,
     lazyLoad: true,

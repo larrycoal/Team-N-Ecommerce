@@ -1,42 +1,63 @@
 import React from "react";
 
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
-
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Pagination, Autoplay } from "swiper";
+import "swiper/swiper-bundle.css";
+import { Flip } from "react-reveal";
+SwiperCore.use([Pagination, Autoplay]);
 
 const Carousel = () => {
+  const slides=[
+    {
+      img:"https://images.unsplash.com/photo-1465453869711-7e174808ace9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+      text:"Lorem"
+    },
+    {
+      img:"https://images.unsplash.com/photo-1560203125-033f79601481?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+      text:"Lorem"
+    },
+    {
+      img:"https://images.unsplash.com/photo-1521317955574-882772c69723?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+      text:"Lorem"
+    },
+    {
+      img:"https://images.unsplash.com/photo-1576995853123-5a10305d93c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+      text:"Lorem"
+    }
+  ]
   const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    autoplay: true,
-    fade:true
+    spaceBetween: 0,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      clickable: true,
+    },
   };
+  const showSlides = ()=>{
+    return slides.map((slide)=>(
+      <SwiperSlide>
+        <div
+          className="carousel_image"
+          style={{
+            background:`url(${slide.img})`
+          }}
+        >
+          <h1>
+            <Flip left cascade>
+              {slide.text}
+            </Flip>
+          </h1>
+        </div>
+      </SwiperSlide>
+    ))
+  }
   return (
-    <Slider {...settings}>
-        <div className="carousel_image" style={{
-          height:"70vh"
-        }}>
-          <img src="https://images.unsplash.com/photo-1465453869711-7e174808ace9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="a polo" />
-        </div>
-        <div className="carousel_image">
-          <img src="https://images.unsplash.com/photo-1560203125-033f79601481?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="a polo" />
-      </div>
-        <div className="carousel_image">
-          <img src="https://images.unsplash.com/photo-1521317955574-882772c69723?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="a polo" />
-        </div>
-      
-        <div className="carousel_image">
-          <img src="https://images.unsplash.com/photo-1527090526205-beaac8dc3c62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="a polo" />
-      </div>
-      
-        <div className="carousel_image">
-          <img src="https://images.unsplash.com/photo-1576995853123-5a10305d93c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="a polo" />
-        </div>
-    </Slider>
+    <Swiper {...settings} pagination>
+      {showSlides()}
+    </Swiper>
   );
 };
 

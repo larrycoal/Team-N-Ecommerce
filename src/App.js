@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./Components/Home";
 import "./Resources/Stylesheet.css";
 import Featured from "./Components/Featured";
-import Store from "./Components/Store";
+//import Store from "./Components/Store";
 import Drawer from "./Components/Drawer";
 import { Context } from "./Store/useContext";
 import { reducer,initialState} from "./Store/useReducer";
@@ -15,7 +15,6 @@ const App = () => {
       <div>
         <Home>
           <Featured />
-          <Store />
           <Drawer />
         </Home>
       </div>
