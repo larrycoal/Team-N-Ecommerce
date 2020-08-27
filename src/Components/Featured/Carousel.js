@@ -55,9 +55,10 @@ const Carousel = () => {
           }}
         >
           <div style={{
-            position:"relative",
+            position:"fixed",
            top:"40%",
-           transform:"translate(-50% -50%)"
+           transform:"translate(-50% -50%)",
+           width:"100%"
           }}>
             <h2>Home Of</h2>
             <h1>
