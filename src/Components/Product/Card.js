@@ -2,37 +2,37 @@ import React from "react";
 import { IconButton } from "@material-ui/core";
 import { LocalMallOutlined } from "@material-ui/icons";
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div
       className="product-card"
       style={{
-        height: "350px",
-        width: "300px",
-        background:
-          "url(https://res.cloudinary.com/dbdrtuscd/image/upload/v1598539037/product4_m2ngy8.png)",
+        height: `${props.height}`,
+        width: `${props.width}`,
+        background: `url(${props.url})`,
         backgroundSize: "cover",
       }}
     >
-      <div
-        style={{
-          display:"flex",
-          position: "absolute",
-          zIndex:"22",
-          justifyContent:"space-between",
-          alignItems:"flex-end",
-          width:"300px",
-          height:"350px",
-          color:"white"
-        }}
-      >
+      <div className="desc">
+        <div style={{
+            flexGrow:"1",
+            alignSelf:"center",
+            marginTop:"50px"
+        }}>
+          <h1>heading</h1>
+        </div>
+        <div style={{
+            display:"flex",
+            justifyContent:"space-between"
+        }}>
           <div>
-              <h1>hello</h1>
+            <h1>hello</h1>
           </div>
-        <div>
-        <IconButton size="large" color="primary">
-          <LocalMallOutlined />
-        </IconButton>
+          <div>
+            <IconButton size="large" color="primary">
+              <LocalMallOutlined />
+            </IconButton>
+          </div>
         </div>
       </div>
     </div>

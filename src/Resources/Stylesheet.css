@@ -213,6 +213,18 @@ form{
     align-items: flex-end;
     column-gap: 20px;
 }
+.product-card{
+    background-size: cover;
+}
+.product-card .desc{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 22;
+    width: 300px;
+    height: 350px;
+    color:white;
+}
 .product-card:hover.product-card::after{
  position: absolute;
  content: "";
