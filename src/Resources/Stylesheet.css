@@ -210,11 +210,11 @@ form{
 }
 .dress-cards{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     column-gap: 20px;
 }
 .product-card{
-    background-size: cover;
+    background-size:cover;
 }
 .product-card .desc{
     display:flex;
@@ -232,7 +232,38 @@ form{
  width:300px;
  background-color: rgba(0, 0, 0, 0.4);
  z-index: 20;
+ border-radius: 5px;
 }
+.cube-effect{
+    height: 550px;
+    width: 400px;
+    background-size: cover !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cube-effect h1{
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.cube-effect h1:hover{
+    background-color: white;
+    color: black;
+}
+/*================================
+--------deals
+=================================*/
+.deals-wrapper{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
 /*================================
 --------Checkout
 =================================*/
