@@ -59,3 +59,34 @@ export const dress=[
         title:"HOVA"
     }
 ]
+
+export const sneakers = [
+    {
+        url:"https://images.unsplash.com/photo-1588099768531-a72d4a198538?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"Nike",
+        desc:"Nike Air Jordan",
+        price:"150000",
+        title:"Air Jordan"
+    },
+    {
+        url:"https://images.unsplash.com/photo-1591882351016-6f26999cea0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"Timberland",
+        desc:"Black timberland",
+        price:"45000",
+        title:"Timberland"
+    },
+    {
+        url:"https://images.unsplash.com/photo-1573115259010-f0638655d44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"",
+        desc:"Reebook",
+        price:"75000",
+        title:"Reebook"
+    },
+    {
+        url:"https://images.unsplash.com/photo-1575256466337-8349be6e1125?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"Nike",
+        desc:"Nike Gore-Tex",
+        price:"350000",
+        title:"Nike"
+    }
+]

@@ -1,12 +1,23 @@
-import React, { useState } from "react";
+import React, { useState ,useContext} from "react";
 import { IconButton } from "@material-ui/core";
 import { LocalMallOutlined } from "@material-ui/icons";
+import { Context } from '../../Store/useContext'
 import {Flip} from 'react-reveal'
 
 const Card = (props) => {
+
+  let {dispatch}= useContext(Context)
   let [display, setDisplay] = useState("none");
   const showDesigner=()=>{
     setDisplay("inline")
+  }
+  const addToCart = ()=>{
+    let merc = {
+      image:props.url,
+      price:props.price,
+      name:props.designer
+    }
+    dispatch({type:"ADD-CART", payload:merc})
   }
   return (
     <div
@@ -52,7 +63,9 @@ const Card = (props) => {
             <p>#{props.price}</p>
           </div>
           <div>
-            <IconButton size="large" color="primary">
+            <IconButton size="large" color="primary" onClick={()=>{
+             addToCart()
+            }}>
               <LocalMallOutlined />
             </IconButton>
           </div>

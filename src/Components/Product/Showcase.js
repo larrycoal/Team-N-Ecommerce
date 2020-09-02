@@ -1,22 +1,13 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { EffectCube, Navigation } from "swiper";
+import SwiperCore, { EffectCube, Navigation,EffectFlip } from "swiper";
 import "swiper/swiper-bundle.css";
-SwiperCore.use([EffectCube, Navigation]);
+SwiperCore.use([EffectCube, Navigation,EffectFlip]);
 
 const Showcase = (props) => {
-  let settings = {
-    effect: "cube",
-    grabCursor: true,
-    cubeEffect: {
-      shadow: true,
-      slideShadows: true,
-      shadowOffset: 20,
-      shadowScale: 0.94,
-    },
-  };
+ 
   return (
-    <Swiper {...settings} navigation>
+    <Swiper {...props.settings} >
       <SwiperSlide>
         <div
         className="cube-effect"
