@@ -36,7 +36,7 @@ export const deals = [
           desc:"One of a kind Rolex"
       },
 ]
-export const dress=[
+export const hova=[
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1598539037/product4_m2ngy8.png",
         designer:"Hova",
@@ -57,6 +57,75 @@ export const dress=[
         desc:"Black bootcut trouser",
         price:"4000",
         title:"HOVA"
+    }
+]
+export const dress=[
+    {
+        url:"https://images.unsplash.com/photo-1553816078-25e0948140f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"Unknown",
+        desc:"looks reall beautiful on the mannequin",
+        price:"40000",
+        title:"Designer"
+    },
+    {
+        url:"https://images.unsplash.com/photo-1588732016705-8a18cb07b557?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"Unknown",
+        desc:"the mannequin is pulling it off,so can you",
+        price:"30000",
+        title:"Designer"
+    },
+    {
+        url:"https://images.unsplash.com/photo-1573232695229-f0e8f8c9253f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"Unknown",
+        desc:"the mannequin looks elite in this",
+        price:"45000",
+        title:"Designer"
+    }
+]
+export const suit=[
+    {
+        url:"https://images.unsplash.com/photo-1598808503746-f34c53b9323e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"Gucci",
+        desc:"Looks expensive so ....",
+        price:"400000",
+        title:"GUCCI?"
+    },
+    {
+        url:"https://images.unsplash.com/photo-1548917459-67156eade1f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"Dior",
+        desc:"Must be expensive sha...",
+        price:"300000",
+        title:"DIOR?"
+    },
+    {
+        url:"https://images.unsplash.com/photo-1589458223095-03eee50f0054?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"Fendi",
+        desc:"Fendi or nothing baby",
+        price:"450000",
+        title:"Fendi"
+    }
+]
+export const jeans=[
+    {
+        url:"https://images.unsplash.com/photo-1554318918-996749a67311?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"Denim",
+        desc:"Original denim jeans i guess",
+        price:"40000",
+        title:"DENIM"
+    },
+    {
+        url:"https://images.unsplash.com/photo-1590526396228-3f1e416e665a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"Denim",
+        desc:"Dope ass jeans",
+        price:"30000",
+        title:"DENIM"
+    },
+    {
+        url:"https://images.unsplash.com/photo-1591369822096-ffd140ec948f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"Fendi",
+        desc:"Fendi or nothing baby",
+        price:"45000",
+        title:"Fendi"
     }
 ]
 

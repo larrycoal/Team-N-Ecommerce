@@ -124,6 +124,7 @@ form{
     display: flex;
     flex-direction: row;
     column-gap: 30px;
+    margin: 20px;
 }
 .dress-model{
     width: 400px;
@@ -134,7 +135,7 @@ form{
     column-gap: 20px;
 }
 .product-card{
-    background-size:cover;
+    background-size:cover !important;
 }
 .product-card .desc{
     display:flex;

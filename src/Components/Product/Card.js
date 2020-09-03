@@ -3,7 +3,6 @@ import { IconButton } from "@material-ui/core";
 import { LocalMallOutlined } from "@material-ui/icons";
 import { Context } from '../../Store/useContext'
 import {Flip} from 'react-reveal'
-
 const Card = (props) => {
 
   let {dispatch}= useContext(Context)
@@ -19,6 +18,7 @@ const Card = (props) => {
     }
     dispatch({type:"ADD-CART", payload:merc})
   }
+
   return (
     <div
       className={props.class}

@@ -3,11 +3,6 @@ import Showcase from "./Showcase";
 import {sneakers} from '../../Resources/Data'
 import Card from "./Card";
 const Watches = () => {
-
-    const settings={
-        effect: 'flip',
-        grabCursor: true,
-    }
     const showSneakers=()=>{
       return sneakers.map((dress)=>(
         <Card
@@ -51,7 +46,9 @@ const Watches = () => {
           <Showcase
           bck1="https://images.unsplash.com/photo-1570688747103-4e3fba010eb0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
           bck2="https://images.unsplash.com/photo-1587502374328-2cd906d3bb0f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-          settings={settings}
+          bck3="https://images.unsplash.com/photo-1570688747103-4e3fba010eb0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+          bck4="https://images.unsplash.com/photo-1587502374328-2cd906d3bb0f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+          
         />
         </div>
        {showSneakers()}
