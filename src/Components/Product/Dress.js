@@ -29,8 +29,8 @@ const Dress = () => {
     <div className="dress-wrapper">
       <div className="dress-model">
         <Showcase
-          bck2="https://images.unsplash.com/photo-1583077873282-81173f513d81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
           bck1="https://res.cloudinary.com/dbdrtuscd/image/upload/v1598909785/Screenshot_2020-08-31_at_3.32.34_PM_z4qup9.png"
+          bck2="https://images.unsplash.com/photo-1583077873282-81173f513d81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
           bck3="https://images.unsplash.com/photo-1521341057461-6eb5f40b07ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
           bck4="https://images.unsplash.com/photo-1510649258574-b0be6c7ab447?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
         />

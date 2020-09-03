@@ -58,7 +58,8 @@ const Carousel = () => {
             position:"fixed",
            top:"40%",
            transform:"translate(-50% -50%)",
-           width:"100%"
+           width:"fit-content",
+           marginLeft:"30px"
           }}>
             <h2>Home Of</h2>
             <h1>
