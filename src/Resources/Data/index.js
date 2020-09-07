@@ -40,7 +40,7 @@ export const hova=[
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1598539037/product4_m2ngy8.png",
         designer:"Hova",
-        desc:"Ankara Corset top, hand beaded",
+        desc:"Ankara Corset top.Hand beaded",
         price:"4000",
         title:"HOVA"
     },

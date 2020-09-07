@@ -63,7 +63,12 @@ const Card = (props) => {
             <p>#{props.price}</p>
           </div>
           <div>
-            <IconButton size="large" color="primary" onClick={()=>{
+            <IconButton 
+            style={{
+              color:"white"
+            }}
+            size="large" 
+            onClick={()=>{
              addToCart()
             }}>
               <LocalMallOutlined />
