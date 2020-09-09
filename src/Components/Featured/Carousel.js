@@ -61,7 +61,6 @@ const Carousel = () => {
            width:"fit-content",
            marginLeft:"30px"
           }}>
-            <h2>Home Of</h2>
             <h1>
               <Flip left cascade>
                 {slide.text}

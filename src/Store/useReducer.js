@@ -2,6 +2,7 @@ import {hova} from "../Resources/Data"
 
 export const initialState = {
   open:false,
+  dmode:false,
   cart:[],
   product:[...hova]
 }
@@ -14,6 +15,13 @@ export const reducer = (state, action) => {
         open: !state.open,
       };
     }
+    case "DARK-MODE": {
+      return {
+        ...state,
+        dmode:!state.dmode
+      };
+    }
+    
     case "ADD-CART":{
       return {
         ...state,
