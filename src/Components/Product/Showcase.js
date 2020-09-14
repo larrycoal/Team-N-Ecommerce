@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { EffectCube, Navigation } from "swiper";
 import "swiper/swiper-bundle.css";
 
-import {hova,dress,suit,jeans} from '../../Resources/Data'
+
 import { Context } from "../../Store/useContext";
 SwiperCore.use([EffectCube, Navigation]);
 
@@ -22,7 +22,7 @@ const Showcase = (props) => {
   }
   
 const updateProduct=(data)=>{
-  dispatch({type:"PRODUCT",payload:data})
+  dispatch({type:`${props.type}`,payload:data})
 }
 
   return (
@@ -35,7 +35,7 @@ const updateProduct=(data)=>{
           }}
           
         >
-            <h1 onClick={()=>updateProduct(hova)}>Explore Now</h1>
+            <h1 onClick={()=>updateProduct(props.prd1)}>Explore Now</h1>
         </div>
       </SwiperSlide>
       <SwiperSlide>
@@ -45,7 +45,7 @@ const updateProduct=(data)=>{
             background: `url(${props.bck2})`
           }}
         >
-            <h1 onClick={()=>updateProduct(dress)}>See More....</h1>
+            <h1 onClick={()=>updateProduct(props.prd2)}>See More....</h1>
         </div>
       </SwiperSlide>
       <SwiperSlide>
@@ -55,7 +55,7 @@ const updateProduct=(data)=>{
             background: `url(${props.bck3})`
           }}
         >
-            <h1 onClick={()=>updateProduct(suit)}>See More....</h1>
+            <h1 onClick={()=>updateProduct(props.prd3)}>See More....</h1>
         </div>
       </SwiperSlide>
       <SwiperSlide>
@@ -65,7 +65,7 @@ const updateProduct=(data)=>{
             background: `url(${props.bck4})`
           }}
         >
-            <h1 onClick={()=>updateProduct(jeans)}>See More....</h1>
+            <h1 onClick={()=>updateProduct(props.prd4)}>See More....</h1>
         </div>
       </SwiperSlide>
     </Swiper>

@@ -1,6 +1,5 @@
 import React from 'react';
-import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
+
 const Footer = () => {
     return (
        <footer className="footer_wrapper">
@@ -47,13 +46,7 @@ const Footer = () => {
             </ul>
            </div>
            <div>
-            <h2>Subscribe to Our News Letter</h2>
-            <form >
-            <TextField  id="standard-basic" label="Email" color="secondary" type="email"/>
-            <Button size="medium">
-                 Subscribe
-            </Button>
-            </form>
+            
            </div>
        </footer>
     );

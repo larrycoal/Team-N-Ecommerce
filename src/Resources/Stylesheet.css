@@ -191,9 +191,15 @@ form{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    margin: 30px
+    margin: 30px;
+    transition: all 1s;
 }
-
+.deal-card .desc{
+    display:flex;
+    flex-direction: column;
+    color:white;
+   
+}
 /*================================
 --------Checkout
 =================================*/
@@ -236,11 +242,30 @@ width: 100px;
     border: none;
     border-radius: 5px;
 }
+/*================================
+--------Subscribe
+=================================*/
+.subscribe-wrapper{
+    height: 150px;
+    margin: 20px;
+    width: 400px;
 
+}
+.subscribe-wrapper p{
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+    font-size: small;
+}
 /*================================
 --------Media Query
 =================================*/
 @media(min-width:320px) and (max-width:480px){
+ .dress-wrapper{
+     flex-direction: column;
+     align-items: center;
+     row-gap: 40px;
+ }
+
     .featured_wrapper{
         font-size: 25px;
     }

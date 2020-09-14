@@ -32,6 +32,7 @@ const Best = () => {
               designer={deal.designer}
               desc={deal.desc}
               price={deal.price}
+              class="deal-card"
             />
           </SwiperSlide>
      ))

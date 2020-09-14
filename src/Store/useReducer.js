@@ -1,10 +1,11 @@
-import {hova} from "../Resources/Data"
+import {hova,sneakers} from "../Resources/Data"
 
 export const initialState = {
   open:false,
-  dmode:false,
+  dmode:true,
   cart:[],
-  product:[...hova]
+  product:[...hova],
+  productTwo:[...sneakers]
 }
 
 export const reducer = (state, action) => {
@@ -32,6 +33,12 @@ export const reducer = (state, action) => {
       return{
         ...state,
         product:[...action.payload]
+      }
+    }
+    case "PRODUCT-TWO":{
+      return{
+        ...state,
+        productTwo:[...action.payload]
       }
     }
     default:

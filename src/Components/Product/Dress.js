@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Card from "./Card";
 import Showcase from "./Showcase";
-
+import {hova,dress,suit,jeans} from '../../Resources/Data'
 import { Context } from "../../Store/useContext";
 
 const Dress = () => {
@@ -33,6 +33,11 @@ const Dress = () => {
           bck2="https://images.unsplash.com/photo-1583077873282-81173f513d81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
           bck3="https://images.unsplash.com/photo-1521341057461-6eb5f40b07ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
           bck4="https://images.unsplash.com/photo-1510649258574-b0be6c7ab447?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+          prd1={hova}
+          prd2={dress}
+          prd3={suit}
+          prd4={jeans}
+          type="PRODUCT"
         />
       </div>
       <div className="dress-cards">{showDress()}</div>
