@@ -1,7 +1,7 @@
 import React,{useContext} from "react";
 import { Context } from "../../Store/useContext";
 import Showcase from "./Showcase";
-import {sneakers,sneakers2,sneakers3,sneakers4} from '../../Resources/Data'
+import {sneakers,watches,shoes,sneakers4} from '../../Resources/Data'
 import Card from "./Card";
 
 
@@ -49,17 +49,17 @@ const Watches = () => {
             gridColumn: "2",
             gridRow: "1/3",
             overflow:"hidden",
-            
+            width:"400px"
           }}
         >
           <Showcase
           bck1="https://images.unsplash.com/photo-1570688747103-4e3fba010eb0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-          bck2="https://images.unsplash.com/photo-1587502374328-2cd906d3bb0f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-          bck3="https://images.unsplash.com/photo-1570688747103-4e3fba010eb0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-          bck4="https://images.unsplash.com/photo-1587502374328-2cd906d3bb0f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+          bck2="https://images.unsplash.com/photo-1565250026886-ec2964652258?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+          bck3="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+          bck4="https://images.unsplash.com/photo-1554342597-bfd585b46463?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
           prd1={sneakers}
-          prd2={sneakers2}
-          prd3={sneakers3}
+          prd2={watches}
+          prd3={shoes}
           prd4={sneakers4}
           type="PRODUCT-TWO"
         />

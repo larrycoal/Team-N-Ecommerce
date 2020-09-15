@@ -135,6 +135,7 @@ form{
 }
 .dress-model{
     width: 400px;
+    height: 550px;
 }
 .dress-cards{
     display: flex;
@@ -166,7 +167,6 @@ form{
 }
 .cube-effect{
     height: 550px;
-    width: 400px;
     background-size: cover !important;
     display: flex;
     align-items: center;

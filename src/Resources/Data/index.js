@@ -313,11 +313,11 @@ export const sneakers = [
         title:"Timberland"
     },
     {
-        url:"https://images.unsplash.com/photo-1573115259010-f0638655d44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"",
-        desc:"Reebook",
+        url:"https://images.unsplash.com/photo-1587502374328-2cd906d3bb0f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"Boost",
+        desc:"Yeezy boost",
         price:"75000",
-        title:"Reebook"
+        title:"Kanye West"
     },
     {
         url:"https://images.unsplash.com/photo-1575256466337-8349be6e1125?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
@@ -327,60 +327,60 @@ export const sneakers = [
         title:"Nike"
     }
 ]
-export const sneakers2 = [
+export const watches = [
     {
-        url:"https://images.unsplash.com/photo-15880a72d4a198538?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"Nike",
-        desc:"Nike Air Jordan",
-        price:"150000",
-        title:"Air Jordan"
+        url:"https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"Rolex",
+        desc:"A beautiful piece",
+        price:"250000",
+        title:"Rolex"
     },
     {
-        url:"https://images.unsplash.com/photo-1591882351016-6f26999cea0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"Timberland",
-        desc:"Black timberland",
-        price:"45000",
-        title:"Timberland"
+        url:"https://images.unsplash.com/photo-1600003014755-ba31aa59c4b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"Rolex",
+        desc:"Classic looking",
+        price:"300000",
+        title:"Rolex"
     },
     {
-        url:"https://images.unsplash.com/photo-1573115259010-f0638655d44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"",
-        desc:"Reebook",
-        price:"75000",
-        title:"Reebook"
+        url:"https://images.unsplash.com/photo-1598533891159-1d1db0800d61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"AP",
+        desc:"A lorem ipsum",
+        price:"250000",
+        title:"AP"
     },
     {
-        url:"https://images.unsplash.com/photo-1575256466337-8349be6e1125?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"Nike",
-        desc:"Nike Gore-Tex",
-        price:"350000",
-        title:"Nike"
+        url:"https://images.unsplash.com/photo-1598624725582-39c9f21bc565?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        designer:"Phillpe",
+        desc:"A perfect piece",
+        price:"300000",
+        title:"Patek"
     }
 ]
-export const sneakers3 = [
+export const shoes = [
     {
-        url:"https://images.unsplash.com/photo-1588099768531-a72d4a198538?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        url:"https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         designer:"Nike",
         desc:"Nike Air Jordan",
         price:"150000",
         title:"Air Jordan"
     },
     {
-        url:"https://images.unsplash.com/photo-1591882351016-6f26999cea0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        url:"https://images.unsplash.com/photo-1518049362265-d5b2a6467637?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         designer:"Timberland",
         desc:"Black timberland",
         price:"45000",
         title:"Timberland"
     },
     {
-        url:"https://images.unsplash.com/photo-1573115259010-f0638655d44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        url:"https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         designer:"",
         desc:"Reebook",
         price:"75000",
         title:"Reebook"
     },
     {
-        url:"https://images.unsplash.com/photo-1575256466337-8349be6e1125?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        url:"https://images.unsplash.com/photo-1515651673377-6abc94e6e889?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         designer:"Nike",
         desc:"Nike Gore-Tex",
         price:"350000",
@@ -389,28 +389,28 @@ export const sneakers3 = [
 ]
 export const sneakers4 = [
     {
-        url:"https://images.unsplash.com/photo-1588099768531-a72d4a198538?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        url:"https://images.unsplash.com/photo-1524498250077-390f9e378fc0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         designer:"Nike",
         desc:"Nike Air Jordan",
         price:"150000",
         title:"Air Jordan"
     },
     {
-        url:"https://images.unsplash.com/photo-1591882351016-6f26999cea0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        url:"https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         designer:"Timberland",
         desc:"Black timberland",
         price:"45000",
         title:"Timberland"
     },
     {
-        url:"https://images.unsplash.com/photo-1573115259010-f0638655d44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        url:"https://images.unsplash.com/photo-1532697057284-bbe526e18cdb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         designer:"",
         desc:"Reebook",
         price:"75000",
         title:"Reebook"
     },
     {
-        url:"https://images.unsplash.com/photo-1575256466337-8349be6e1125?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        url:"https://images.unsplash.com/photo-1524672353063-4f66ee1f385e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
         designer:"Nike",
         desc:"Nike Gore-Tex",
         price:"350000",
