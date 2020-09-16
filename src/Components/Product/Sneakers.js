@@ -15,8 +15,8 @@ const Watches = () => {
       }
       return productTwo.map((dress)=>(
         <Card
-        height="350px"
-        width="300px"
+        height="14em"
+        width="12em"
         url={dress.url}
         designer={dress.designer}
         desc={dress.desc}
@@ -35,13 +35,14 @@ const Watches = () => {
       }}
     >
       <div
+      className="sneaker"
         style={{
           display: "grid",
-          gridTemplateColumns: "400px auto 400px",
+          gridTemplateColumns: "14em auto 14em",
           gridTemplateRows: "1fr 1fr",
-          margin: "0 auto",
-          width: "90vw",
-          rowGap:"20px"
+          margin: "1em",
+          rowGap:"20px",
+          fontSize:"25px",
         }}
       >
         <div
@@ -49,7 +50,9 @@ const Watches = () => {
             gridColumn: "2",
             gridRow: "1/3",
             overflow:"hidden",
-            width:"400px"
+            width:"16em",
+            margin:"20px",
+            justifySelf:"center"
           }}
         >
           <Showcase

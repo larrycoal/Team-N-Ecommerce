@@ -132,10 +132,12 @@ form{
     flex-direction: row;
     column-gap: 30px;
     margin: 20px;
+    font-size: 25px;
 }
 .dress-model{
-    width: 400px;
-    height: 550px;
+    width: 16em;
+    height: 22em;
+    
 }
 .dress-cards{
     display: flex;
@@ -143,6 +145,7 @@ form{
     column-gap: 20px;
     flex-wrap: wrap;
     row-gap: 20px;
+    font-size: 25px;
 }
 .product-card{
     background-size:cover !important;
@@ -152,29 +155,45 @@ form{
     flex-direction: column;
     position: absolute;
     z-index: 22;
-    width: 300px;
-    height: 350px;
+    width: 12em;
+    height: 14em;
     color:white;
+    font-size: 1em;
+}
+.desc .top{
+    flex-grow: 1;
+    align-self: center;
+    margin-top: 2em;
+    font-size: .9em;
+}
+.desc .bottom{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: flex-end;
+    font-size: .7em;
+    padding: .3em;
 }
 .product-card:hover.product-card::after{
  position: absolute;
  content: "";
- height: 350px;
- width:300px;
+ height: 14em;
+ width:12em;
  background-color: rgba(0, 0, 0, 0.4);
  z-index: 20;
  border-radius: 5px;
 }
 .cube-effect{
-    height: 550px;
+    height: 28em;
     background-size: cover !important;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: .8em;
 }
 .cube-effect h1{
     border: 1px solid white;
-    padding: 10px 30px;
+    padding: .4em 1em;
     border-radius: 10px;
     color: white;
     cursor: pointer;
@@ -246,10 +265,13 @@ width: 100px;
 --------Subscribe
 =================================*/
 .subscribe-wrapper{
-    height: 150px;
+    height: 200px;
+    background: #f5f5f5;
+}
+.subscribe-wrapper .subscribe-container{
     margin: 20px;
+    padding: 20px;
     width: 400px;
-
 }
 .subscribe-wrapper p{
     margin-bottom: 15px;
@@ -265,7 +287,14 @@ width: 100px;
      align-items: center;
      row-gap: 40px;
  }
-
+ .dress-cards{
+     font-size: 10px;
+ }
+.sneaker{
+    font-size: 10px !important;
+    display: flex !important;
+    flex-direction:column ;
+}
     .featured_wrapper{
         font-size: 25px;
     }

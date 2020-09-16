@@ -14,8 +14,8 @@ const Dress = () => {
     }
     return product.map((dress) => (
       <Card
-        height="350px"
-        width="300px"
+        height="14em"
+        width="12em"
         url={dress.url}
         designer={dress.designer}
         desc={dress.desc}

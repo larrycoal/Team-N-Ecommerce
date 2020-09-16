@@ -8,16 +8,41 @@ import {
   Badge,
   InputBase,
 } from "@material-ui/core";
-import { ShoppingCart, House, Instagram,Search,WbIncandescent,WbIncandescentOutlined } from "@material-ui/icons";
-import {useStyles} from '../../Resources/utils'
-
+import {
+  ShoppingCart,
+  House,
+  Instagram,
+  Search,
+  WbIncandescent,
+  WbIncandescentOutlined,
+} from "@material-ui/icons";
+import { useStyles } from "../../Resources/utils";
 
 const Header = () => {
   const classes = useStyles();
+
   let { state, dispatch } = useContext(Context);
-  const mode = ()=>{
-    return state.dmode? <WbIncandescent/>:<WbIncandescentOutlined/>
-}
+
+  const search = () => (
+    window.innerWidth < 500? <div><Search/></div>:
+    <div className={classes.search}>
+      <div className={classes.searchIcon}>
+        <Search />
+      </div>
+      <InputBase
+        placeholder="Search…"
+        classes={{
+          root: classes.inputRoot,
+          input: classes.inputInput,
+        }}
+        inputProps={{ "aria-label": "search" }}
+      />
+    </div>
+  );
+  const mode = () => {
+    console.log(window.innerWidth)
+    return state.dmode ? <WbIncandescent /> : <WbIncandescentOutlined />;
+  };
 
   return (
     <div className="header_wrapper">
@@ -53,23 +78,11 @@ const Header = () => {
               </span>
             </Typography>
           </div>
-          <div className={classes.search}>
-            <div className={classes.searchIcon}>
-              <Search />
-            </div>
-            <InputBase
-              placeholder="Search…"
-              classes={{
-                root: classes.inputRoot,
-                input: classes.inputInput,
-              }}
-              inputProps={{ 'aria-label': 'search' }}
-            />
-          </div>
+          {search()}
           <IconButton
             style={{
               color: "white",
-              margin:"0px 5px"
+              margin: "0px 5px",
             }}
             href="https://instagram.com/shophova_"
           >
@@ -79,20 +92,18 @@ const Header = () => {
           </IconButton>
 
           <IconButton
-          onClick={()=>dispatch({type:"DARK-MODE"})}
+            onClick={() => dispatch({ type: "DARK-MODE" })}
             style={{
               color: "white",
-              margin:"0px 5px"
+              margin: "0px 5px",
             }}
           >
-            <Badge >
-              {mode()}
-            </Badge>
+            <Badge>{mode()}</Badge>
           </IconButton>
           <IconButton
             style={{
               color: "white",
-              margin:"0px 5px"
+              margin: "0px 5px",
             }}
             onClick={() => {
               dispatch({ type: "open-drawer" });

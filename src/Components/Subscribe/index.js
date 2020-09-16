@@ -5,6 +5,7 @@ import Button from "@material-ui/core/Button";
 const Subscribe = () => {
   return (
     <div className="subscribe-wrapper">
+      <div className="subscribe-container">
       <h2
         style={{
           marginBottom: "5px",
@@ -12,7 +13,7 @@ const Subscribe = () => {
       >
         Subscribe to Our News Letter
       </h2>
-      <p>lorem ipsum dolore orem ipsum doloret orem ipsum dolorett</p>
+      <p>subscribe to our news letter and be the first to hear about our new deals and offers</p>
 
       <TextField
         id="outlined-basic"
@@ -29,10 +30,12 @@ const Subscribe = () => {
         style={{
           color: "red",
           marginLeft: "20px",
+          width:"100px"
         }}
       >
         Subscribe
       </Button>
+      </div>
     </div>
   );
 };
