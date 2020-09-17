@@ -59,7 +59,8 @@ const Carousel = () => {
            top:"40%",
            transform:"translate(-50% -50%)",
            width:"fit-content",
-           marginLeft:"30px"
+           marginLeft:"30px",
+           fontSize:"1em"
           }}>
             <h1>
               <Flip left cascade>

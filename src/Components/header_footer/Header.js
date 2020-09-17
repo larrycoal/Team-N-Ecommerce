@@ -43,6 +43,9 @@ const Header = () => {
     console.log(window.innerWidth)
     return state.dmode ? <WbIncandescent /> : <WbIncandescentOutlined />;
   };
+  const switchMode=()=>{
+    dispatch({ type: "DARK-MODE" })
+  }
 
   return (
     <div className="header_wrapper">
@@ -57,13 +60,15 @@ const Header = () => {
           <div className="header_title">
             <Typography variant="h6" className="header_text">
               <span>
-                <House fontSize="large" />
+                <House style={{
+                  fontSize:"2em"
+                }} />
               </span>
               <span
                 style={{
                   padding: "4px",
                   fontFamily: "Satisfy",
-                  fontSize: "25px",
+                  fontSize: "1em",
                 }}
               >
                 of
@@ -72,6 +77,7 @@ const Header = () => {
                 style={{
                   padding: "4px",
                   fontFamily: "Righteous",
+                  fontSize:"2em"
                 }}
               >
                 HOVA
@@ -92,7 +98,7 @@ const Header = () => {
           </IconButton>
 
           <IconButton
-            onClick={() => dispatch({ type: "DARK-MODE" })}
+            onClick={() => switchMode()}
             style={{
               color: "white",
               margin: "0px 5px",

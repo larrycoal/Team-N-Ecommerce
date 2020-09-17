@@ -30,31 +30,12 @@ const Watches = () => {
     <div
       className="watches-wrapper"
       style={{
-        height: "750px",
         margin:"20px"
       }}
     >
-      <div
-      className="sneaker"
-        style={{
-          display: "grid",
-          gridTemplateColumns: "14em auto 14em",
-          gridTemplateRows: "1fr 1fr",
-          margin: "1em",
-          rowGap:"20px",
-          fontSize:"25px",
-        }}
-      >
+      <div className="sneaker">
         <div
-          style={{
-            gridColumn: "2",
-            gridRow: "1/3",
-            overflow:"hidden",
-            width:"16em",
-            margin:"20px",
-            justifySelf:"center"
-          }}
-        >
+        className="display">
         <Zoom>
         <Showcase
           bck1="https://images.unsplash.com/photo-1570688747103-4e3fba010eb0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
