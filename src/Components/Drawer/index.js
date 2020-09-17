@@ -10,8 +10,8 @@ let {state,dispatch} =useContext(Context)
         <SwipeableDrawer 
         anchor="right" 
         open={state.open}
-        onClose={()=>{dispatch({type:"open-drawer"})}}
-        onOpen={()=>{dispatch({type:"open-drawer"})}}
+        onClose={()=>{dispatch({type:"DRAWER"})}}
+        onOpen={()=>{dispatch({type:"DRAWER"})}}
         >
             <Checkout/>
         </SwipeableDrawer>

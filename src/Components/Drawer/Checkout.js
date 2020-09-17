@@ -2,7 +2,7 @@ import React, { useContext,useEffect,useState } from "react";
 import { Context } from "../../Store/useContext";
 import { Avatar,Button } from "@material-ui/core";
 const Checkout = () => {
-  let { state } = useContext(Context);
+  let { state,dispatch } = useContext(Context);
   let [Total,setTotal]= useState(0)
   let [Gtotal,setGtotal]= useState(0)
   
@@ -29,6 +29,11 @@ const Checkout = () => {
   }
   },[state.cart])
 
+  const showModal =()=>{
+    console.log(state)
+    dispatch({type:"DRAWER"})
+    dispatch({type:"MODAL"})
+  }
 
   const displayTrolley = () => {
     if (state.cart.length > 0) {
@@ -71,7 +76,7 @@ const Checkout = () => {
           <span>Grand Total:</span>
     <span>{Gtotal}</span>
         </div>
-        <Button variant="outlined" color="secondary">
+        <Button variant="outlined" color="secondary" onClick={()=>showModal()}>
           Check Out
         </Button>
       </div>

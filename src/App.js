@@ -5,6 +5,7 @@ import Featured from "./Components/Featured";
 import Product from "./Components/Product";
 import Drawer from "./Components/Drawer";
 import Subscribe from "./Components/Subscribe";
+import Modal from "./Components/Modal";
 import { Context } from "./Store/useContext";
 import { reducer,initialState} from "./Store/useReducer";
 import { useReducer} from "react";
@@ -18,6 +19,7 @@ const App = () => {
           <Product/>
           <Subscribe/>
           <Drawer />
+          <Modal/>
         </Home>
     </Context.Provider>
   );

@@ -40,7 +40,6 @@ const Header = () => {
     </div>
   );
   const mode = () => {
-    console.log(window.innerWidth)
     return state.dmode ? <WbIncandescent /> : <WbIncandescentOutlined />;
   };
   const switchMode=()=>{
@@ -112,7 +111,7 @@ const Header = () => {
               margin: "0px 5px",
             }}
             onClick={() => {
-              dispatch({ type: "open-drawer" });
+              dispatch({ type: "DRAWER" });
             }}
           >
             <Badge badgeContent={state.cart.length}>

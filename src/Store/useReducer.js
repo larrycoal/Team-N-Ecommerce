@@ -3,6 +3,7 @@ import {hova,sneakers} from "../Resources/Data"
 export const initialState = {
   open:false,
   dmode:true,
+  modal:false,
   cart:[],
   product:[...hova],
   productTwo:[...sneakers]
@@ -10,7 +11,7 @@ export const initialState = {
 
 export const reducer = (state, action) => {
   switch (action.type) {
-    case "open-drawer": {
+    case "DRAWER": {
       return {
         ...state,
         open: !state.open,
@@ -39,6 +40,12 @@ export const reducer = (state, action) => {
       return{
         ...state,
         productTwo:[...action.payload]
+      }
+    }
+    case "MODAL":{
+      return{
+        ...state,
+        modal:!state.modal
       }
     }
     default:
