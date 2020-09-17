@@ -27,7 +27,7 @@ const Best = () => {
      return deals.map((deal)=>(
         <SwiperSlide>
             <Card
-              height="250px"
+              height="10em"
               url={deal.url}
               designer={deal.designer}
               desc={deal.desc}
@@ -46,15 +46,14 @@ const Best = () => {
       <div style={{
           margin:"20px",
           color:`${mode()}`,
-          fontSize:"35px",
+          fontSize:"1.2em",
       }}>
         <h1>Our Best Deals</h1>
         <Rating defaultValue={5} size="large" />
       </div>
       <div
         style={{
-          width: "70vw",
-          margin: "0 auto",
+          margin:"20px",
         }}
       >
         <Swiper {...settings} navigation>

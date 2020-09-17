@@ -1,11 +1,20 @@
-import React from "react";
+import React,{useContext} from "react";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
+import { Context } from "../../Store/useContext";
 
 const Subscribe = () => {
+  let { state } = useContext(Context);
   return (
-    <div className="subscribe-wrapper">
-      <div className="subscribe-container">
+    <div className="subscribe-wrapper"
+    style={{
+      backgroundColor:`${state.dmode?"#f5f5f5":"#424242"}`
+    }}
+    >
+      <div className="subscribe-container"
+      style={{
+        color:`${state.dmode?"black":"white"}`
+      }}>
       <h2
         style={{
           marginBottom: "5px",
