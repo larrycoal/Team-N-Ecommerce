@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import { IconButton } from "@material-ui/core";
 import { LocalMallOutlined } from "@material-ui/icons";
 import { Context } from "../../Store/useContext";
-import { Flip } from "react-reveal";
+import { Flip,Slide } from "react-reveal";
 
 const Card = (props) => {
   let { dispatch } = useContext(Context);
@@ -20,6 +20,7 @@ const Card = (props) => {
   };
 
   return (
+    <Slide bottom>
     <div
       className={props.class}
       style={{
@@ -74,6 +75,7 @@ const Card = (props) => {
         </div>
       </div>
     </div>
+    </Slide>
   );
 };
 

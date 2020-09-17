@@ -288,10 +288,10 @@ width: 100px;
      row-gap: 40px;
  }
  .dress-cards{
-     font-size: 10px;
+     font-size: 13px;
  }
 .sneaker{
-    font-size: 10px !important;
+    font-size: 13px !important;
     display: flex !important;
     flex-direction:column ;
 }

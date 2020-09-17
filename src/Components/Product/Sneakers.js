@@ -4,7 +4,7 @@ import Showcase from "./Showcase";
 import {sneakers,watches,shoes,sneakers4} from '../../Resources/Data'
 import Card from "./Card";
 
-
+import { Zoom } from "react-reveal";
 
 const Watches = () => {
   let { state } = useContext(Context);
@@ -55,7 +55,8 @@ const Watches = () => {
             justifySelf:"center"
           }}
         >
-          <Showcase
+        <Zoom>
+        <Showcase
           bck1="https://images.unsplash.com/photo-1570688747103-4e3fba010eb0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
           bck2="https://images.unsplash.com/photo-1565250026886-ec2964652258?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
           bck3="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
@@ -66,6 +67,7 @@ const Watches = () => {
           prd4={sneakers4}
           type="PRODUCT-TWO"
         />
+        </Zoom>
         </div>
        {showSneakers()}
       </div>
