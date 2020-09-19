@@ -47,6 +47,10 @@ const Watches = () => {
           prd3={shoes}
           prd4={sneakers4}
           type="PRODUCT-TWO"
+          store1="HOVA"
+          store2="PLAN-A-FIT"
+          store3="HOVA STORE"
+          store4="PLAN-A-FIT"
         />
         </Zoom>
         </div>

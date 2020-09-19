@@ -42,49 +42,49 @@ export const hova=[
         designer:"Hova",
         desc:"Ankara Corset top.Hand beaded",
         price:"4000",
-        title:"HOVA"
+        title:"@shophova_"
     },
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1598539029/product2_sj7ks6.png",
         designer:"Hova",
         desc:"Slanted one handpuff Sleeve",
         price:"3000",
-        title:"HOVA"
+        title:"@shophova_"
     },
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1598538909/product1_lp6n7f.png",
         designer:"Hova",
         desc:"Black bootcut trouser",
         price:"4000",
-        title:"HOVA"
+        title:"@shophova_"
     },
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1598539037/product4_m2ngy8.png",
         designer:"Hova",
         desc:"Ankara Corset top.Hand beaded",
         price:"4000",
-        title:"HOVA"
+        title:"@shophova_"
     },
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1598909853/Screenshot_2020-08-27_at_8.33.20_AM_q1oual.png",
         designer:"Hova",
         desc:"The adire 2 piece top set",
         price:"4000",
-        title:"HOVA"
+        title:"@shophova_"
     },
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1598909823/Screenshot_2020-08-31_at_3.32.53_PM_ge56vd.png",
         designer:"Hova",
         desc:"2 piece ankara short and kimono",
         price:"4000",
-        title:"HOVA"
+        title:"@shophova_"
     },
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1598909785/Screenshot_2020-08-31_at_3.32.34_PM_z4qup9.png",
         designer:"Hova",
         desc:"2 piece lounge wear",
         price:"4000",
-        title:"HOVA"
+        title:"@shophova_"
     },
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1598909740/Screenshot_2020-08-31_at_3.30.16_PM_xfcalp.png",
@@ -101,69 +101,69 @@ export const hova=[
         title:"HOVA"
     }
 ]
-export const dress=[
+export const planAfit=[
     {
-        url:"https://images.unsplash.com/photo-1553816078-25e0948140f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"Unknown",
+        url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600532340/plan-a-fit4_da9drr.png",
+        designer:"Plan a fit",
         desc:"looks really beautiful on the mannequin",
         price:"40000",
-        title:"Designer"
+        title:"@plan-a-fit"
     },
     {
-        url:"https://images.unsplash.com/photo-1588732016705-8a18cb07b557?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"Unknown",
-        desc:"the mannequin is pulling it off,so can you",
-        price:"30000",
-        title:"Designer"
-    },
-    {
-        url:"https://images.unsplash.com/photo-1573232695229-f0e8f8c9253f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"Unknown",
-        desc:"the mannequin looks elite in this",
-        price:"45000",
-        title:"Designer"
-    },
-    {
-        url:"https://images.unsplash.com/photo-1553816078-25e0948140f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"Unknown",
+        url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600533865/plan-a-fit12_ldgsyr.png",
+        designer:"Plan a fit",
         desc:"looks really beautiful on the mannequin",
         price:"40000",
-        title:"Designer"
+        title:"@plan-a-fit"
     },
     {
-        url:"https://images.unsplash.com/photo-1588732016705-8a18cb07b557?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"Unknown",
+        url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600532341/plan-a-fit6_uvlzpd.png",
+        designer:"Plan a fit",
         desc:"the mannequin is pulling it off,so can you",
         price:"30000",
-        title:"Designer"
+        title:"@plan-a-fit"
     },
     {
-        url:"https://images.unsplash.com/photo-1573232695229-f0e8f8c9253f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"Unknown",
+        url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600532348/plan-a-fit5_msdf2b.png",
+        designer:"Plan a fit",
         desc:"the mannequin looks elite in this",
         price:"45000",
-        title:"Designer"
+        title:"@plan-a-fit"
     },
     {
-        url:"https://images.unsplash.com/photo-1553816078-25e0948140f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"Unknown",
+        url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600533867/plan-a-fit13_dv30ua.png",
+        designer:"Plan a fit",
         desc:"looks really beautiful on the mannequin",
         price:"40000",
-        title:"Designer"
+        title:"@plan-a-fit"
     },
     {
-        url:"https://images.unsplash.com/photo-1588732016705-8a18cb07b557?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"Unknown",
-        desc:"the mannequin is pulling it off,so can you",
-        price:"30000",
-        title:"Designer"
+        url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600532352/plan-a-fit2_jple1t.png",
+        designer:"Plan a fit",
+        desc:"looks really beautiful on the mannequin",
+        price:"40000",
+        title:"@plan-a-fit"
     },
     {
-        url:"https://images.unsplash.com/photo-1573232695229-f0e8f8c9253f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"Unknown",
-        desc:"the mannequin looks elite in this",
-        price:"45000",
-        title:"Designer"
+        url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600532352/plan-a-fit3_aeoll7.png",
+        designer:"Plan a fit",
+        desc:"looks really beautiful on the mannequin",
+        price:"40000",
+        title:"@plan-a-fit"
+    },
+    {
+        url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600533859/plan-a-fit7_dcpnbf.png",
+        designer:"Plan a fit",
+        desc:"looks really beautiful on the mannequin",
+        price:"40000",
+        title:"@plan-a-fit"
+    },
+    {
+        url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600533870/plan-a-fit9_unnpkx.png",
+        designer:"Plan a fit",
+        desc:"looks really beautiful on the mannequin",
+        price:"40000",
+        title:"@plan-a-fit"
     },
 ]
 export const suit=[

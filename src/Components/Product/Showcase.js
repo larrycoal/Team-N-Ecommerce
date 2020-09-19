@@ -35,7 +35,7 @@ const updateProduct=(data)=>{
           }}
           
         >
-            <h1 onClick={()=>updateProduct(props.prd1)}>Explore Now</h1>
+            <h1 onClick={()=>updateProduct(props.prd1)}>{props.store1}</h1>
         </div>
       </SwiperSlide>
       <SwiperSlide>
@@ -45,7 +45,7 @@ const updateProduct=(data)=>{
             background: `url(${props.bck2})`
           }}
         >
-            <h1 onClick={()=>updateProduct(props.prd2)}>See More....</h1>
+            <h1 onClick={()=>updateProduct(props.prd2)}>{props.store2}</h1>
         </div>
       </SwiperSlide>
       <SwiperSlide>
@@ -55,7 +55,7 @@ const updateProduct=(data)=>{
             background: `url(${props.bck3})`
           }}
         >
-            <h1 onClick={()=>updateProduct(props.prd3)}>See More....</h1>
+            <h1 onClick={()=>updateProduct(props.prd3)}>{props.store3}</h1>
         </div>
       </SwiperSlide>
       <SwiperSlide>
@@ -65,7 +65,7 @@ const updateProduct=(data)=>{
             background: `url(${props.bck4})`
           }}
         >
-            <h1 onClick={()=>updateProduct(props.prd4)}>See More....</h1>
+            <h1 onClick={()=>updateProduct(props.prd4)}>{props.store4}</h1>
         </div>
       </SwiperSlide>
     </Swiper>
