@@ -139,6 +139,7 @@ form{
 }
 .dress-cards{
     display: flex;
+    gap: 20px;
     align-items: center;
     flex-wrap: wrap;
     font-size: 25px;

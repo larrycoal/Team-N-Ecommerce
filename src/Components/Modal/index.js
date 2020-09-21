@@ -74,7 +74,7 @@ export default function SpringModal() {
       >
         <Fade in={state.modal}>
           <div className={classes.paper}>
-            <h1 id="spring-modal-title">This button do nothing</h1>
+            <h1 id="spring-modal-title">HELLO! shopper</h1>
             <p id="spring-modal-description">If you are interested in some of the product</p>
             <p id="spring-modal-description">you can patronize them on instagram @shophova_ @plan_a_fit</p>
           </div>
