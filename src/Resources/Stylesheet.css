@@ -140,9 +140,7 @@ form{
 .dress-cards{
     display: flex;
     align-items: center;
-    column-gap: 20px !important;
     flex-wrap: wrap;
-    row-gap: 20px !important;
     font-size: 25px;
 }
 .product-card{
@@ -295,7 +293,7 @@ width: 100px;
 /*================================
 --------Media Query
 =================================*/
-@media(min-width:320px) and (max-width:480px){
+@media(min-width:300px) and (max-width:480px){
  .dress-wrapper{
      flex-direction: column;
      align-items: center;
@@ -305,7 +303,11 @@ width: 100px;
      height: 27em;
  }
  .dress-cards{
-     font-size: 13px;
+     font-size: 12px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     row-gap: 20px;
+     column-gap: 20px;
  }
 .sneaker{
     font-size: 13px !important;
