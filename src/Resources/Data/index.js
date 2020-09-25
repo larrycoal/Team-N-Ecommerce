@@ -91,77 +91,77 @@ export const hova=[
         designer:"Hova",
         desc:"Ankara two way gown",
         price:"5000",
-        title:"HOVA"
+        title:"@shophova_"
     },
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1598909790/Screenshot_2020-08-31_at_3.29.39_PM_cz7lnf.png",
         designer:"Hova",
         desc:"Red Palazzo Pant",
         price:"5000",
-        title:"HOVA"
+        title:"@shophova_"
     }
 ]
 export const planAfit=[
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600532340/plan-a-fit4_da9drr.png",
         designer:"Plan a fit",
-        desc:"looks really beautiful on the mannequin",
+        desc:"Beautiful dress available in all size",
         price:"40000",
         title:"@plan-a-fit"
     },
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600533865/plan-a-fit12_ldgsyr.png",
         designer:"Plan a fit",
-        desc:"looks really beautiful on the mannequin",
+        desc:"Available in all sizes",
         price:"40000",
         title:"@plan-a-fit"
     },
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600532341/plan-a-fit6_uvlzpd.png",
         designer:"Plan a fit",
-        desc:"the mannequin is pulling it off,so can you",
+        desc:"Beautiful dress available in all size",
         price:"30000",
         title:"@plan-a-fit"
     },
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600532348/plan-a-fit5_msdf2b.png",
         designer:"Plan a fit",
-        desc:"the mannequin looks elite in this",
+        desc:"Beautiful dress available in all size",
         price:"45000",
         title:"@plan-a-fit"
     },
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600533867/plan-a-fit13_dv30ua.png",
         designer:"Plan a fit",
-        desc:"looks really beautiful on the mannequin",
+        desc:"Beautiful dress available in all size",
         price:"40000",
         title:"@plan-a-fit"
     },
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600532352/plan-a-fit2_jple1t.png",
         designer:"Plan a fit",
-        desc:"looks really beautiful on the mannequin",
+        desc:"Beautiful dress available in all size",
         price:"40000",
         title:"@plan-a-fit"
     },
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600532352/plan-a-fit3_aeoll7.png",
         designer:"Plan a fit",
-        desc:"looks really beautiful on the mannequin",
+        desc:"Beautiful dress available in all size",
         price:"40000",
         title:"@plan-a-fit"
     },
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600533859/plan-a-fit7_dcpnbf.png",
         designer:"Plan a fit",
-        desc:"looks really beautiful on the mannequin",
+        desc:"Beautiful dress available in all size",
         price:"40000",
         title:"@plan-a-fit"
     },
     {
         url:"https://res.cloudinary.com/dbdrtuscd/image/upload/v1600533870/plan-a-fit9_unnpkx.png",
         designer:"Plan a fit",
-        desc:"looks really beautiful on the mannequin",
+        desc:"Beautiful dress available in all size",
         price:"40000",
         title:"@plan-a-fit"
     },
