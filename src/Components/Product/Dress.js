@@ -41,8 +41,8 @@ const Dress = () => {
           type="PRODUCT"
           store1="HOVA"
           store2="PLAN-A-FIT"
-          store3="HOVA STORE"
-          store4="PLAN-A-FIT"
+          store3="SUIT"
+          store4="JEANS"
         />
        </Zoom>
       </div>

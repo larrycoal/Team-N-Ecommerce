@@ -1,7 +1,7 @@
 import React,{useContext} from "react";
 import { Context } from "../../Store/useContext";
 import Showcase from "./Showcase";
-import {sneakers,watches,shoes,sneakers4} from '../../Resources/Data'
+import {sneakers,watches,shoes,bags} from '../../Resources/Data'
 import Card from "./Card";
 
 import { Zoom } from "react-reveal";
@@ -45,12 +45,12 @@ const Watches = () => {
           prd1={sneakers}
           prd2={watches}
           prd3={shoes}
-          prd4={sneakers4}
+          prd4={bags}
           type="PRODUCT-TWO"
-          store1="HOVA"
-          store2="PLAN-A-FIT"
-          store3="HOVA STORE"
-          store4="PLAN-A-FIT"
+          store1="SNEAKERS"
+          store2="WATCHES"
+          store3="SHOES"
+          store4="BAGS"
         />
         </Zoom>
         </div>

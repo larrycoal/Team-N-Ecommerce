@@ -387,33 +387,33 @@ export const shoes = [
         title:"Nike"
     }
 ]
-export const sneakers4 = [
+export const bags = [
     {
         url:"https://images.unsplash.com/photo-1524498250077-390f9e378fc0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"Nike",
-        desc:"Nike Air Jordan",
+        designer:"BAGS",
+        desc:"Beautiful bags",
         price:"150000",
-        title:"Air Jordan"
+        title:"BAGS"
     },
     {
         url:"https://images.unsplash.com/photo-1523779105320-d1cd346ff52b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"Timberland",
-        desc:"Black timberland",
-        price:"45000",
-        title:"Timberland"
+        designer:"BAGS",
+        desc:"Beautiful bags",
+        price:"150000",
+        title:"BAGS"
     },
     {
         url:"https://images.unsplash.com/photo-1532697057284-bbe526e18cdb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"",
-        desc:"Reebook",
-        price:"75000",
-        title:"Reebook"
+        designer:"BAGS",
+        desc:"Beautiful bags",
+        price:"150000",
+        title:"BAGS"
     },
     {
         url:"https://images.unsplash.com/photo-1524672353063-4f66ee1f385e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
-        designer:"Nike",
-        desc:"Nike Gore-Tex",
-        price:"350000",
-        title:"Nike"
+        designer:"BAGS",
+        desc:"Beautiful bags",
+        price:"150000",
+        title:"BAGS"
     }
 ]
