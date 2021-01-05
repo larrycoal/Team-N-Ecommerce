@@ -35,14 +35,15 @@ const Carousel = () => {
     },
   ];
   const settings = {
-    spaceBetween: 0,
-    centeredSlides: true,
+    slidesPerView:2,
+    spaceBetween: 30,
+    centeredSlides: false,
     autoplay: {
       delay: 2500,
-      disableOnInteraction: false,
+      disableOnInteraction: true,
     },
     pagination: {
-      clickable: true,
+      clickable: false,
     },
   };
   const showSlides = () => {
