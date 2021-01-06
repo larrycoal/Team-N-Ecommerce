@@ -10,27 +10,27 @@ const Carousel = () => {
   const slides = [
     {
       img:
-        "https://www.lucine-a.com/wp-content/uploads/2018/07/African-Fashion-Festival-3.jpg",
+        "https://res.cloudinary.com/dbdrtuscd/image/upload/v1609926380/fullAnkara_eaxkkj.png",
       text: "Trendy Ankara",
     },
     {
       img:
-        "https://images.unsplash.com/photo-1591348278900-019a8a2a8b1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://res.cloudinary.com/dbdrtuscd/image/upload/v1609926331/fullAnkaraStand_fgpuwj.jpg",
       text: "Beautiful Bags",
     },
     {
       img:
-      "https://t3.ftcdn.net/jpg/01/77/39/20/240_F_177392031_pCMnvyMiuiwEun0hyRIYaRPxBCJf9PNo.jpg",
+      "https://res.cloudinary.com/dbdrtuscd/image/upload/v1609926370/jumpsuit_ysdrie.jpg",
       text: "Stylish Attire",
     },
     {
       img:
-        "https://t4.ftcdn.net/jpg/02/82/49/43/240_F_282494334_om0DBFChHJGhrOeBZyTDNJW9s1r8Koly.jpg",
+        "https://res.cloudinary.com/dbdrtuscd/image/upload/v1609926329/skinmePant_dklol4.jpg",
       text: "Sneakers",
     },
     {
       img:
-        "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "https://res.cloudinary.com/dbdrtuscd/image/upload/v1609926374/pinaforeAndYoungPlaysuit_ftj6hs.jpg",
       text: "Original Watches",
     },
   ];
